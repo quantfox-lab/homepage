@@ -1,7 +1,7 @@
 url: jetfox-lab.github.io
 baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'JetFox - Quant Lab'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
