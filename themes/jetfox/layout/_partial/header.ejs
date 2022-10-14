@@ -7,10 +7,10 @@
         <% for (name in theme.menu) { %>
         <li class="menu-item">
           <a href="<%- url_for(theme.menu[name]) %>" class="menu-item-link"
-            ><%= name %></a
+            ><%- __('Menu.' + name) %></a
           >
         </li>
         <% } %>
       </ul>
     </nav>
-  </header>
+</header>

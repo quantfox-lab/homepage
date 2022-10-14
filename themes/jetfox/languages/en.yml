@@ -1,4 +1,9 @@
-index:
-  title: Home
-  articles: News
-  about: About Us
+Menu:
+  Home: Home
+  Archives: News
+  Prev: Prev
+  Next: Next
+
+Paginator:
+  Prev: Prev
+  Next: Next
