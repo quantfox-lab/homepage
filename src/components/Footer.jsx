@@ -54,12 +54,22 @@ export function Footer() {
           {/*    </p>*/}
           {/*  </div>*/}
           {/*</div>*/}
-          <Button
-              target="_blank"
-              href="https://forms.gle/y2SKDVwXrYV95qqE6"
-          >
-            Contact Us
-          </Button>
+          <div>
+            <Button
+                className="mr-5"
+                target="_blank"
+                href="https://forms.gle/y2SKDVwXrYV95qqE6"
+            >
+              Contact Us
+            </Button>
+            <Button
+                variant="outline"
+                href="mailto:contact@jetfox.dev"
+            >
+              Send Email
+            </Button>
+          </div>
+
         </div>
         <div className="flex flex-col items-center border-t border-gray-200 pt-8 pb-12 md:flex-row-reverse md:justify-between md:pt-6">
           {/*<form className="flex w-full justify-center md:w-auto">*/}
