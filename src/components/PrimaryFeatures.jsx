@@ -563,7 +563,7 @@ export function PrimaryFeatures() {
         </div>
       </Container>
       <div className="mt-16 md:hidden">
-        <FeaturesMobile />
+        {/*<FeaturesMobile />*/}
       </div>
       <Container className="hidden md:mt-20 md:block">
         <FeaturesDesktop />
