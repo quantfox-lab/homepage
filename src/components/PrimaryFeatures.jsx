@@ -503,11 +503,12 @@ function FeaturesMobile() {
                   className={featureIndex % 2 === 1 ? 'rotate-180' : undefined}
                 />
               </div>
-              <PhoneFrame className="relative mx-auto w-full max-w-[366px]">
-                <feature.screen />
-              </PhoneFrame>
+              {/*<PhoneFrame className="relative mx-auto w-full max-w-[366px]">*/}
+              {/*  <feature.screen />*/}
+              {/*</PhoneFrame>*/}
+              <img src={codeImg.src} className="relative mx-auto w-full"/>
               <div className="absolute inset-x-0 bottom-0 bg-gray-800/95 p-6 backdrop-blur sm:p-10">
-                <feature.icon className="h-8 w-8" />
+                {/*<feature.icon className="h-8 w-8" />*/}
                 <h3 className="mt-6 text-sm font-semibold text-white sm:text-lg">
                   {feature.name}
                 </h3>
@@ -563,7 +564,7 @@ export function PrimaryFeatures() {
         </div>
       </Container>
       <div className="mt-16 md:hidden">
-        {/*<FeaturesMobile />*/}
+        <FeaturesMobile />
       </div>
       <Container className="hidden md:mt-20 md:block">
         <FeaturesDesktop />
