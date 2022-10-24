@@ -18,7 +18,7 @@ export function CallToAction() {
             Power Your Quant Research!
           </h2>
           <p className="mt-4 text-lg text-gray-300">
-            Our service is about to kick out. Register your interest and get notified once JetFox is available.
+            Our service is about to kick off. Register your interest and get notified once JetFox is available. We will opensource our engines shortly.
           </p>
           <div className="mt-8 flex justify-center">
             {/*<AppStoreLink color="white" />*/}
