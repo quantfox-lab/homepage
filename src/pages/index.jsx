@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>JetFox - A One-stop Quantitative Research Solution.</title>
+        <title>QuantFox - A One-stop Quantitative Research Solution.</title>
         <meta
           name="description"
           content="A handy, cutting-edge, unified API and environment for research, backtest and live trading on the leading algorithmic trading platform."

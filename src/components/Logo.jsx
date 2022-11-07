@@ -10,7 +10,7 @@ export function Logo(props) {
       <div className="flex items-center text-gray-900">
           <Logomark className="h-10 w-10 flex-none" />
           <div className="ml-4">
-              <p className="text-2xl font-bold ">JetFox</p>
+              <p className="text-2xl font-bold ">QuantFox</p>
           </div>
       </div>
   )

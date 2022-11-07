@@ -29,8 +29,8 @@ export function Footer() {
             <div className="flex items-center text-gray-900">
               <Logomark className="h-10 w-10 flex-none fill-cyan-500" />
               <div className="ml-4">
-                <p className="text-base font-semibold">JetFox</p>
-                <p className="mt-1 text-sm">Boost your quant research from Australia.</p>
+                <p className="text-base font-semibold">QuantFox</p>
+                <p className="mt-1 text-sm">Boost your quantitative research from Australia.</p>
               </div>
             </div>
             {/*<nav className="mt-11 flex gap-8">*/}
@@ -64,7 +64,7 @@ export function Footer() {
             </Button>
             <Button
                 variant="outline"
-                href="mailto:contact@jetfox.dev"
+                href="mailto:contact@quantfox.dev"
             >
               Send Email
             </Button>
